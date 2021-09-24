@@ -1,5 +1,5 @@
-MIDDLEWARES
-Middleware functions can perform the following tasks:
+#MIDDLEWARES
+##Middleware functions can perform the following tasks:
 
 Execute any code.
 Make changes to the request and the response objects.
