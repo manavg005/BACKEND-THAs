@@ -1,0 +1,26 @@
+// API
+
+POST /signup
+POST /login
+
+GET /categories -> get all the categories
+GET /categories/{category_id} -> get category by its category_id
+
+GET /products -> get all the products
+GET /products/{product_id} -> get product by product_id
+GET /products/categories/{category_id} -> get products by category_id
+GET /products/search -> get product having similar name or in the same category.
+
+// Protected Routes
+GET /customers -> get all the users
+GET /customers/{customer_id} -> get user info
+PUT /customers/{customer_id} -> update user info
+
+GET /orders/{order_id} -> get the specific order info
+PUT /orders/{order_id} -> update the order details
+GET /orders/customers/{customer_id} -> get all the orders of the customers
+
+GET /cart/{cart_id} -> get the cart items
+PUT /cart/{cart_id} -> update the cart 
+DELETE /cart/{cart_id} -> clear the cart
+
